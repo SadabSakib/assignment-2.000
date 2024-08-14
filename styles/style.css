@@ -1,0 +1,97 @@
+.display-flex{
+    display: flex;
+    flex-direction: row;
+}
+nav{
+    justify-content: space-between;
+    /* padding: 0px 0px; */
+   
+}
+header{
+background:     rgb(34, 34, 34)
+     }
+
+  
+#nav-section,#stay-healthy{
+    max-width: 80%;
+    margin: 0 auto;
+}
+#header-ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    border: 1px solid gray;
+    border-radius: 15px;
+    gap: 10px;
+    padding: 0px 1px;
+   
+}
+#home{
+    background-color: tomato;
+    color: white;
+    border-radius: 15px;
+    padding: 5px 15px;
+    border: none;
+    margin: 1px 1px;
+}
+
+#stay-healthy{
+    align-items: center;
+    /* background: linear-gradient(360.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%); */
+}
+
+#stay-healthy h1{
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    font-weight: 900;
+}
+
+#fitness{
+    color: rgb(230, 83, 60);
+    font-family: Inter;
+    font-size: 36px;
+    font-weight: 800;
+}
+#join{
+    color: white;
+    background-color: tomato;
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
+}
+#Download{
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+#shape{
+    font-family:miama;font-style:italic;font-weight:400;src:local('Miama'),url(https://fonts.cdnfonts.com/s/302/Miama-Regular.woff) format('woff')}@font-face{font-family:miama;font-style:normal;font-weight:300;src:local('Miama'),url(https://fonts.cdnfonts.com/s/302/Miama.woff) format('woff');
+}
+#body-in-shape{
+    width: 520px;
+}
+
+#Tutorial350{
+    position: absolute;
+    left: 40%;
+top: 556px;
+width: 206px;
+height: 96px;
+box-sizing: border-box;
+border: 1px solid rgba(255, 255, 255, 0.1);
+border-radius: 12px;
+
+backdrop-filter: blur(20px);
+background: rgba(48, 48, 48, 0.54);
+}
+#circle{
+    background: rgb(230, 83, 60);
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 787px;
+    top: 584px;
+}
