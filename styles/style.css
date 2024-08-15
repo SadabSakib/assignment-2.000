@@ -284,6 +284,7 @@ footer{
     padding-top: 50px;
     position: relative;
    padding-bottom: 50px;
+   /* margin-top: 20px; */
 }
 #footer h1{
     color: rgb(230, 83, 60);
@@ -383,19 +384,20 @@ text-align: left;
 }
 .Team-info{
     max-width: 60%;
-    margin: 50px auto;
-    grid-template-columns: auto auto auto;
+    margin: 0px auto;
+    /* grid-template-columns: auto auto auto; */
     justify-content: center;
     grid-gap: 10px;
     padding: 20px;
     border-radius: 18px;
     background: rgba(255, 255, 255, 0.1);
-   
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
    
 }
 .team-pic{
     position: relative;
-    display: inline-block;
+    /* display: inline-block; */
 }
 .team-pic h6{
     color: rgb(255, 255, 255);
@@ -421,9 +423,7 @@ text-align: left;
     bottom: 20px;
     left: 10px;
 }
-.Team-info {
-    grid-template-rows: repeat(3, 1fr);
-}
+
   @media only screen and (max-width: 576px){
     #stay-healthy{
         flex-direction: column;
