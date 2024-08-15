@@ -1,3 +1,9 @@
+*{
+    margin: 0px;
+    /* padding: 0px; */
+    /* overflow: hidden; */
+}
+
 .display-flex{
     display: flex;
     flex-direction: row;
@@ -12,7 +18,7 @@ background:     rgb(34, 34, 34)
      }
 
   
-#nav-section,#stay-healthy,#change-habit{
+nav,#stay-healthy,#change-habit,#change-habit{
     max-width: 80%;
     margin: 0 auto;
 }
@@ -82,9 +88,9 @@ border-radius: 39px;
 }
 
 #Tutorial350{
-    position: absolute;
-    left: 40%;
-top: 556px;
+position: absolute;
+left: 50%;
+top: 520px;
 width: 206px;
 height: 96px;
 box-sizing: border-box;
@@ -158,6 +164,7 @@ letter-spacing: 0.5px;
 text-align: left;
 width: 520px;
 height: 48px;
+text-align: center;
 }
 
 #polygon{
@@ -204,3 +211,103 @@ main{
     font-style: normal;
     margin-bottom: 10px;
   }
+
+  .round-img{
+    height:100px;
+    width: 100px;
+    border-radius: 50%;
+   }
+
+#change-habit-img-div-container{
+    gap:30px;
+  text-align:start;
+}
+#change-habit-img-div-container div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: center;
+}
+
+#change-habit-img-div-container h2{
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+#change-habit-img-div-container p{
+    color: rgba(255, 255, 255, 0.5);
+font-family: Inter;
+font-size: 14px;
+font-weight: 400;
+line-height: 18px;
+letter-spacing: 0.3px;
+text-align: center;
+}
+
+#change-habit{
+    /* margin-top: 50px; */
+    padding-top: 50px;
+}
+
+  @media only screen and (max-width: 576px){
+    #stay-healthy{
+        flex-direction: column;
+        /* overflow-y: hidden; */
+        overflow: auto;
+    }
+    #body-in-shape{
+        text-align: left;
+    }
+    #body-in-shape h1{
+        color: rgb(255, 255, 255);
+font-size: 20px;
+font-weight: 900;
+line-height: 120%;
+letter-spacing: 0%;
+/* text-align: left; */
+
+
+    }
+    #body-in-shape p{
+font-size: 10px;
+font-weight: 100;
+line-height: normal;
+letter-spacing: 0.5px;
+/* text-overflow:inherit; */
+/* margin-left: 20px; */
+display: inline-block;
+text-align: left;
+/* white-space: nowrap; */
+ height: 100%;
+ /* overflow: visible; */
+}
+    #header-ul{
+        display: none;
+    }
+    #body-in-shape p,#body-in-shape h1,#download,#header-buttons{
+    position: relative;
+    left: 50px;
+    margin: 0px auto;
+   }
+   nav,#stay-healthy,#change-habit{
+   position: relative;
+   display: inline-block;
+    max-width: 100%;
+    margin: 0px auto;
+   }
+   #nav-section{
+    padding: auto;
+   }
+   #img1{
+       margin-top: 50px;
+   }
+
+   #change-habit-img-div-container{
+    flex-direction: column;
+   }
+  
+}
