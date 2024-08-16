@@ -539,8 +539,15 @@ label{
     display: grid;
     grid-template-columns: 100%;
  }
- .calculate{
-     margin: 20px 0 30px 0;
+ .calculate button{
+    margin-top: 10px;
+    border-radius: 42px; 
+    background: rgb(230, 83, 60);
+    width: 112px;
+    height: 27px;
+    border: none;
+    color: white;
+
  }
 
   @media only screen and (max-width: 576px){
